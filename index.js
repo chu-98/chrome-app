@@ -1,20 +1,4 @@
-const nicoInfo = {
-    name: "Coder_Chu",
-    age: 24,
-    gender: "Male",
-    Handsome: true,
-    favMovie: ["Along the gods",
-    "Oldboy"],
-    favFood: [
-        {
-          name:"Kimchi",
-          fatty: false
-        },
-        {
-          name: "Cheese burger", 
-          fatty: true 
-        }
-    ]
-}
-
-console.log(nicoInfo);
+const title = document.querySelector("#title");
+title.innerHTML = "Hi! from JS";
+title.style.color = "red";
+document.title = "I own you now";
