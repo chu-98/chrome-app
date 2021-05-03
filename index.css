@@ -1,7 +1,20 @@
 body {
   background-color: #2980b9;
+  color: #34495e;
 }
 
-h1 {
+.btn {
+  cursor: pointer;
+}
+.clicked {
   color: white;
+}
+
+.form,
+.greetings {
+  display: none;
+}
+
+.showing {
+  display: block;
 }
