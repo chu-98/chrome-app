@@ -6,6 +6,7 @@ body {
 .btn {
   cursor: pointer;
 }
+
 .clicked {
   color: white;
 }
